@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_districts",
+  "info": {
+    "singularName": "sub-district",
+    "pluralName": "sub-districts",
+    "displayName": "sub_district"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

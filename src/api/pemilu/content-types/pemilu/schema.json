@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pemilus",
+  "info": {
+    "singularName": "pemilu",
+    "pluralName": "pemilus",
+    "displayName": "Pemilu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

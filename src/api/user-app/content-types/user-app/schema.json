@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_apps",
+  "info": {
+    "singularName": "user-app",
+    "pluralName": "user-apps",
+    "displayName": "user_app"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    },
+    "id_role": {
+      "type": "uid"
+    }
+  }
+}

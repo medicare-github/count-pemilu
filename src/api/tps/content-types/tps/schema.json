@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tpss",
+  "info": {
+    "singularName": "tps",
+    "pluralName": "tpss",
+    "displayName": "tps"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sub_village": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub-village.sub-village"
+    },
+    "name": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "string"
+    },
+    "long": {
+      "type": "string"
+    },
+    "voter": {
+      "type": "string"
+    }
+  }
+}

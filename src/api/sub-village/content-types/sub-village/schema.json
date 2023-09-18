@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_villages",
+  "info": {
+    "singularName": "sub-village",
+    "pluralName": "sub-villages",
+    "displayName": "sub_village"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "village": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::village.village"
+    }
+  }
+}

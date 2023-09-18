@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paslons",
+  "info": {
+    "singularName": "paslon",
+    "pluralName": "paslons",
+    "displayName": "paslon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "dapil": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "org": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::org.org"
+    },
+    "paslon_number": {
+      "type": "integer",
+      "unique": false,
+      "required": true
+    },
+    "pemilu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pemilu.pemilu"
+    }
+  }
+}

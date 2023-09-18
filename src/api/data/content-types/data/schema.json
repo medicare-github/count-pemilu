@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datas",
+  "info": {
+    "singularName": "data",
+    "pluralName": "datas",
+    "displayName": "data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paslon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::paslon.paslon"
+    },
+    "witness": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::witness.witness"
+    },
+    "verified": {
+      "type": "biginteger"
+    },
+    "not_verified": {
+      "type": "biginteger"
+    },
+    "total": {
+      "type": "biginteger"
+    }
+  }
+}

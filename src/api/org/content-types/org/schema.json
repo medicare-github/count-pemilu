@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orgs",
+  "info": {
+    "singularName": "org",
+    "pluralName": "orgs",
+    "displayName": "org"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
